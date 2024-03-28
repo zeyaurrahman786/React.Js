@@ -3,15 +3,19 @@ import "./App.css";
 import About from './Screens/About.js';
 import Contact from './Screens/Contact.js';
 import RegisterForm from './Screens/RegisterForm.js';
+import UserList from './Screens/UserList.js';
+import ColorChange from './Screens/ColorChange.js';
 
 function App() {
   return(
       // <h1>Hello React Developer</h1>
 
     <div>
-    {/* <About /> */}
+      <ColorChange />
+    {/* <About /> */} 
     {/* <Contact /> */}
-    <RegisterForm />
+    {/* <RegisterForm /> */}
+    {/* <UserList /> */}
     </div> 
 
   )
